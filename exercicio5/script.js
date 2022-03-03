@@ -76,7 +76,7 @@ function contar() {
    
     // Apos os testes acima se i for menor que f poderemos executar a nossa repetição..
     // e em seguida imprimir o resultado
-    if (i <= f) {
+      if (i <= f) {
       
 
        
@@ -86,22 +86,15 @@ function contar() {
        
         `
       // Começando o contador, se i for menor ou igual a f, incrementa i 
-      for (i; i <= f; i++) {
+      for (i; i <= f; i+= s) {
         // console.log (i)
-        let res =  (i* s)
-        // console.log (res)
-        // for (res <= f) {
-        //   res = (i * s)
-        // }
-       
-
-
-        // if (res)
+         console.log (i)
+        
       
 
 
         resultado.innerHTML += ` 
-        <div style= "text-align: left;" id="resultado" >${res}</div>
+        <div style= "text-align: left;" id="resultado" >${i}</div>
         <div style= "text-align: left;" id="resultado" >${String.fromCodePoint(0x1F449)} </div>
 
         
